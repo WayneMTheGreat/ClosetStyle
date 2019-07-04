@@ -12,7 +12,7 @@ import Foundation
 class WebRequests{
     private let session = URLSession(configuration: .default)
     private var apiURLComponents = URLComponents()
-    private let apiKey = "d48f45965f8fa8cabfd6d06f35b15b7550c4fc915adb7c02eb69d52a3315bebc"
+    private let apiKey = ""
     
     
     func getUnsplashPhotoURL(completion: @escaping (DownloadLink?, UnsplashPost)->()){
